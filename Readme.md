@@ -54,29 +54,28 @@ This project implements a Customer Churn Analytics pipeline using Amazon Redshif
 
 ## Project Structure
 
-
+```text
 Custome-Churn-Analytics-Redshift/
 │
 ├── scripts/
 │   ├── Operations/
-│   │      └── connections.py
-│   │      └── create_table.py
-│   │      └── load_data.py
-│   │      └── optimizer.py
-│   │      └── SQL_Operation.py
-│   ├── utils/
-│         └── bucket.py
-│         └── create_redshift.py
-│         └── upload_file.py
-│         └── optimizer.py
-│        
+│   │   ├── connections.py
+│   │   ├── create_table.py
+│   │   ├── load_data.py
+│   │   ├── optimizer.py
+│   │   └── SQL_Operation.py
+│   │
+│   └── utils/
+│       ├── bucket.py
+│       ├── create_redshift.py
+│       ├── upload_file.py
+│       └── optimizer.py
 │
+├── documentation/
 ├── main.py
 ├── .gitignore
-├── Readme.md
-├── documenation
 └── README.md
-
+```
 
 ## How to Run
 
