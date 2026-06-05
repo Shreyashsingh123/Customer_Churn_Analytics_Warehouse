@@ -74,7 +74,7 @@ Custome-Churn-Analytics-Redshift/
 ├── main.py
 ├── .gitignore
 ├── Readme.md
-├── screenshots/
+├── documenation
 └── README.md
 
 
